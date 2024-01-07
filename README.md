@@ -16,4 +16,26 @@ newPageSize 부분해결 전체 page넘어가는거하자
 
 https://mui.com/x/migration/migration-data-grid-v5/#pagination
 
-4:04:38
+4:27:37
+
+# 세팅
+
+client .env
+
+```
+VITE_API_URL=http://localhost:5001
+```
+
+server .env
+
+```
+MONGO_URL=mongodb+srv://<id명>:<pw비번>@cluster0.dukxdbv.mongodb.net/<collection명>?retryWrites=true&w=majority
+PORT=5001
+```
+
+# geography
+
+https://nivo.rocks/choropleth/
+
+https://github.com/plouc/nivo/blob/master/website/src/data/components/geo/world_countries.json
+example에서 raw 파일 추출
